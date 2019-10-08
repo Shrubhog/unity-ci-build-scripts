@@ -12,6 +12,7 @@ ${UNITY_EXECUTABLE:-xvfb-run --auto-servernum --server-args='-screen 0 640x480x2
   -projectPath $(pwd) \
   -quit \
   -batchmode \
+  -manualLicenseFile ../Unity_v2018.x.ulf
   -buildTarget $BUILD_TARGET \
   -customBuildTarget $BUILD_TARGET \
   -customBuildName $BUILD_NAME \
